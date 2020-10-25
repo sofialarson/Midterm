@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Heebo);
+
+body {
+  font-family: 'Heebo';
+}
+
+h1, h2, h3, p {
+  color: #6D6D6D;
+}
+
+.navigation h2 {
+  display: inline-flex;
+  float: right;
+  color: #454545
+}
+
+.navigation h1 {
+  display: inline-block;
+  position: absolute;
+  font-size: 250%;
+  margin-top: 7px;
+  margin-left: 20px;
+  color: #454545;
+}
+
+.pagewidth{
+  display:flex;
+  justify-content: center;
+}
+
+.anxieties{
+  background-color: white;
+  border-style: solid;
+  border-color: #EDDFCE;
+  border-width: thick;
+}
+
+.images {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.right{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  background-color: #F2EAD0;
+  margin-left: 10px;
+  display: inline-flex;
+}
+
+.threecolumn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.info {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+li {
+  color: #454545;
+}
+
+  ul {
+  list-style-type: none;
+}
