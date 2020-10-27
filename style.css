@@ -23,6 +23,7 @@ h1, h2, h3, p {
   color: #454545;
 }
 
+/* Places elements in the center of the page horizontally*/
 .pagewidth{
   display:flex;
   justify-content: center;
@@ -40,11 +41,13 @@ h1, h2, h3, p {
   justify-content: space-between;
 }
 
+/* Places elements on the right of the page horizontally*/
 .right{
   display: flex;
   justify-content: flex-end;
 }
 
+/* Creates cards for the three column section*/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
@@ -61,12 +64,6 @@ h1, h2, h3, p {
   margin-top: 5%;
 }
 
-.image {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-}
-
 .info {
   display: block;
   justify-content: center;
@@ -75,6 +72,7 @@ h1, h2, h3, p {
 
 li {
   color: #454545;
+  text-align: center;
 }
 
   ul {
@@ -82,4 +80,8 @@ li {
   margin: 0px;
   padding: 0px;
   margin-top: 5%;
+}
+
+a {
+  color: #454545;
 }
